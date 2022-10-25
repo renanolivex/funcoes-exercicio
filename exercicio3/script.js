@@ -30,18 +30,23 @@ return divinum
 
 //b) Em seguida, fora das funções, receba do usuário dois números e armazene em variáveis.
 
-console.log(soma(2,2))
-console.log(subtracao(2,2))
-console.log(multiplicacao(2,2))
-console.log(divisao(2,2))
+let numAle = Number(prompt("insira um número aleatório"))
+let numAle2 = Number(prompt("Digite outro número aleatorio"))
 
 //c) Invoque cada uma das 4 funções, passando como argumento os dois números recebidos do usuário.
 
 
-const somafunc = soma(2,2)
-const subfunc = subtracao (2,2)
-const mutifunc = multiplicacao(2,2)
-const divfunc = divisao(2,2)
+console.log(soma(numAle,numAle2))
+console.log(subtracao(numAle,numAle2))
+console.log(multiplicacao(numAle,numAle2))
+console.log(divisao(numAle,numAle2))
+
+//d) Por fim, crie variáveis para receber o retorno de cada uma das funções e imprima o resultado das operações no console.
+
+const somafunc = soma(numAle,numAle2)
+const subfunc = subtracao (numAle,numAle2)
+const mutifunc = multiplicacao(numAle,numAle2)
+const divfunc = divisao(numAle,numAle2)
 
 
 console.log(somafunc)

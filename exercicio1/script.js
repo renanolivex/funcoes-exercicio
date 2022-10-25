@@ -71,8 +71,7 @@ const numero = (num1)=>{
     `
     }
     
-    console.log(numero(5))
-    console.log(numero(8))
+   
     console.log(numero(4))
 
     
